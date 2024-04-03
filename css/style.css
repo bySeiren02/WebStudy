@@ -14,17 +14,23 @@ div {
     height: 400px;
 }
 div.contents {
-    align-items: center;
     background-color: paleturquoise;
 }
 div#ootd {
-    
-    align-items: center;
     background-color: pink;
 }
 div#ootd dt {
     color: red;
     text-decoration: underline;
+}
+div#login_form {
+    text-align: center;
+    width: 500px;
+    height: auto;
+}
+div#login_form input {
+    display:block;
+    margin: 3px;
 }
 p {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
