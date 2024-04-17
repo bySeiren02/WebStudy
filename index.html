@@ -64,7 +64,7 @@
             체크박스 : <input type="checkbox", name="", id="">
             라디오 버튼 : <input type="radio", name="", id="">
             파일 첨부 : <input type="file", name="", id="">
-            <input type="button", value="나는 버튼입니다">
+            <input type="button", value="나는 버튼입니다", onmouseout="alert('나감')" ,onclick="alert('버튼이 눌려졌습니다!')">
             <input type="image", src="./src/facebook.png", style="width: 100px;" alt="">
             히든은 보이지 않음<input type="hidden", name="", id="">
             날짜 : <input type="date", name="", id="">
@@ -78,6 +78,85 @@
             <input type="submit", value="로그인 하기">
             <input type="reset", value="양식 초기화">
         </form>
+    </div>
+
+    <table style="border: 1px solid gray; text-align: center;">
+        <tr>
+            <th>번호</th>
+            <th>상품명</th>
+            <th>수량</th>
+            <th>가격</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>콜라</td>
+            <td>1개</td>
+            <td>1,500원</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>사이다</td>
+            <td>2개</td>
+            <td>1,000원</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>탄산수</td>
+            <td>3개</td>
+            <td>1,000원</td>
+        </tr>
+        <tr>
+            <td>합계</td>
+            <td colspan="3">6,500원</td>
+            <td>*</td>
+            <td>*</td>
+        </tr>
+    </table>
+    <div style="width:600px; text-align: center">
+        <table width="500px" border="2" cellspacing="3">
+            <caption style="color: red; font-weight: bold;">제품 주문표</caption>
+            <col style="width:10%">
+            <colgroup span="3" style="width:20%; background-color:pink;"></colgroup>
+            <col style="width:30%">
+            <thead>
+                <tr>
+                    <th>순번</th>
+                    <th>품명</th>
+                    <th>단가</th>
+                    <th>수량</th>
+                    <th>비고</th>
+                </tr>
+            </thead>
+            <tfoot>
+                <tr>
+                    <td>합계</td>
+                    <td colspan="4"></td>
+                </tr>
+            </tfoot>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>새우깡</td>
+                    <td>1,200</td>
+                    <td>3</td>
+                    <td rowspan="3"></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>감자깡</td>
+                    <td>1,300</td>
+                    <td>8</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>자갈치</td>
+                    <td>1,400</td>
+                    <td>20</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <video src="용용 (YongYong) - 매초마다 죽어가고 있어 (with. 한요한) [매초마다]ㅣLyrics_가사.mp4" controls></video>
     </div>
 </body>
 </html>
